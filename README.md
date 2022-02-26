@@ -51,3 +51,14 @@ To-do list:
 ## Usage
 
 You are now ready to use Insomnia, sending requests and inputting information for the employee request. Note: the email you supply in the employee request will be where the confirmation email will be sent.
+
+## Roles / Responsibilities
+
+- Worked within environments such as IntelliJ, Dbeaver, Insomnia, and Command Prompt for API development.
+- Utilized JUnit, Mockito, and Spring Test for unit testing the back end throughout development.
+- Integrated persistent data through GCP instances, Spring Data, Hibernate, Postgresql, and Dbeaver.
+- Created an independent and containerized application through Docker.
+- Documented the entire codebase with the help of JavaDocs.
+- Managed source control through Command Prompt utilizing Git.
+- Leveraged Spring MVC to handle requests and responses coming from Insomnia or HTML webpages.
+- Utilized logging through Log4j to ensure efficient error catching and resolution.
