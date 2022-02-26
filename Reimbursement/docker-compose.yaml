@@ -1,0 +1,39 @@
+version: "3.9"
+
+networks:
+  my-expense-network:
+
+services:
+  api1:
+    image: cphall/expense-api
+    ports:
+      - 8080:8080
+    container_name: api1
+#    depends_on:
+#      - postgres
+    environment:
+      - API2_URL=http://api2:8081/email
+#    networks:
+#      - my-expense-network
+#    networks:
+#      - app
+  api2:
+    image: cphall/email-api
+    container_name: api2
+#    networks:
+#      - my-expense-network
+#    networks:
+#      - app
+
+#  postgres:
+#    image: postgres
+#    restart: always
+#    ports:
+#      - 5432:5432
+#    environment:
+#      - POSTGRES_USER=postgres
+#      - POSTGRES_PASSWORD=BEJjxy2l64lhLO4p
+#    container_name: postgres_container
+#
+#  networks:
+#    app:
